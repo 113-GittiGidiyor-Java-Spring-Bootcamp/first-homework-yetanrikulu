@@ -13,11 +13,10 @@ public class Student extends Person {
     @ManyToMany
     private List<Course> courseList = new ArrayList<>();
 
-    public Student(String name, String address,LocalDate birthDate, String gender){
-        super(name,address);
+    public Student(String name, String address, LocalDate birthDate, String gender) {
+        super(name, address);
         this.birthDate = birthDate;
         this.gender = gender;
-        this.courseList = courseList;
     }
 
     public Student(LocalDate birthDate, String gender, List<Course> courseList) {
@@ -52,4 +51,6 @@ public class Student extends Person {
     public void setCourseList(List<Course> courseList) {
         this.courseList = courseList;
     }
+
+
 }

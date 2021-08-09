@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1788893-0f9b-481b-a421-2d2b6a56a780" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/uml/schoolManagement.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first-homework-yetanrikulu/client/SchoolManagementApiClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first-homework-yetanrikulu/client/SchoolManagementApiClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first-homework-yetanrikulu/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first-homework-yetanrikulu/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first-homework-yetanrikulu/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first-homework-yetanrikulu/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/SchoolManagementApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/SchoolManagementApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +92,7 @@
       <updated>1628531377626</updated>
       <workItem from="1628531379043" duration="5000" />
       <workItem from="1628531600670" duration="24000" />
-      <workItem from="1628531631595" duration="1344000" />
+      <workItem from="1628531631595" duration="3495000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1628531705723</created>

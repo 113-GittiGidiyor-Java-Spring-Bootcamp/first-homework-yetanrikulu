@@ -7,21 +7,21 @@ import java.util.List;
 
 public class StudentController {
 
-    private StudentService studentService = new StudentService();
+    private final StudentService studentService = new StudentService();
 
-    public List<Student> findAll(){
+    public List<Student> findAll() {
         return studentService.findAll();
     }
 
-    public Student findById(int id){
-        return studentService.findById(id);
+    public void changeName(Student student, String name) {
+        studentService.changeName(student, name);
     }
 
-    public void save(Student student){
+    public void save(Student student) {
         studentService.save(student);
     }
 
-    public void delete(Student student){
+    public void delete(Student student) {
         studentService.delete(student);
     }
 

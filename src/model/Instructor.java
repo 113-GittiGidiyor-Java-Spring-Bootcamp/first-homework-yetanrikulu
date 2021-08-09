@@ -15,9 +15,9 @@ public abstract class Instructor extends Person {
     @OneToMany(mappedBy = "instructor")
     private List<Course> courseList = new ArrayList<>();
 
-    public Instructor(String name, String address,String phoneNumber) {
+    public Instructor(String name, String address, String phoneNumber) {
         super(name, address);
-        this.phoneNumber =phoneNumber;
+        this.phoneNumber = phoneNumber;
     }
 
     public Instructor() {
