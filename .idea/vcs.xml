@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/TrendX/apiGateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TrendX/productApi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TrendX/userApi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Trendyol bootcamp bitirme/basketApi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Trendyol bootcamp bitirme/configServer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Trendyol bootcamp bitirme/productApi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/configrepo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ggBootcamp/HW1-SchoolManagement" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ggBootcamp/first-homework-yetanrikulu" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ggBootcamp/gittigidiyor-spring-bootcamp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/masaüstü/spring kafka deneme/spring-kafka" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/udemy spring/stockApi" vcs="Git" />
+  </component>
+</project>
