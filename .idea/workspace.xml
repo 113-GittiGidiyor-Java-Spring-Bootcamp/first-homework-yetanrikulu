@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1788893-0f9b-481b-a421-2d2b6a56a780" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/SchoolManagementApiClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/PermanentInstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/VisitingResearcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/CrudRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/EntityManagerUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/schoolManagement.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +39,26 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yaemta\Desktop\ggBootcamp\first-homework-yetanrikulu" />
+      <recent name="C:\Users\yaemta\Desktop\ggBootcamp\first-homework-yetanrikulu\src\uml" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration name="SchoolManagementApiClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.SchoolManagementApiClient" />
+      <module name="first-homework-yetanrikulu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -60,6 +70,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SchoolManagementApiClient" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,7 +86,7 @@
       <updated>1628531377626</updated>
       <workItem from="1628531379043" duration="5000" />
       <workItem from="1628531600670" duration="24000" />
-      <workItem from="1628531631595" duration="315000" />
+      <workItem from="1628531631595" duration="1344000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1628531705723</created>
