@@ -3,6 +3,7 @@ package model;
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 @Entity
 public class Course {
@@ -19,7 +20,6 @@ public class Course {
     private List<Student> studentList = new ArrayList<>();
 
     public Course(String courseName, String courseCode, int creditScore, Instructor instructor) {
-
         this.courseName = courseName;
         this.courseCode = courseCode;
         this.creditScore = creditScore;
@@ -81,6 +81,19 @@ public class Course {
 
     public void setStudentList(List<Student> studentList) {
         this.studentList = studentList;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Course course = (Course) o;
+        return id == course.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
     }
 
     @Override

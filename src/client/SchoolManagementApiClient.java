@@ -29,7 +29,7 @@ public class SchoolManagementApiClient {
         studentList.stream().forEach(s -> System.out.println(s.getName()));
 
         //Update
-        studentController.changeName(student, "Selin Toprak Öğrenci");
+        studentController.changeName(student, "Cemile Toprak Öğrenci");
         System.out.println("\n-- After Updating Student Name --");
         studentList = studentController.findAll();
         studentList.stream().forEach(s -> System.out.println(s.getName()));
@@ -39,10 +39,6 @@ public class SchoolManagementApiClient {
         System.out.println("\n-- After Deleting Student --");
         studentList = studentController.findAll();
         studentList.stream().forEach(s -> System.out.println(s.getName()));
-
-
-        System.out.println("************************************");
-
 
     }
 
@@ -94,7 +90,9 @@ public class SchoolManagementApiClient {
             em.persist(student2);
             em.persist(student3);
 
+
             em.getTransaction().commit();
+
         } catch (Exception e) {
             em.getTransaction().rollback();
         } finally {
